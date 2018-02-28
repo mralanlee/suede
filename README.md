@@ -1,12 +1,14 @@
-# Seude
-Seude is a module, inspired by [dotenv](https://github.com/motdotla/dotenv), for loading environment variables from a `seude.env.json` file into `process.env`. The difference is that you must declare the environment for the imported function so that it could do a lookup in the JSON file to load any required environment variables.
+# Medium Roast
+---
+Seude is a module, inspired by [dotenv](https://github.com/motdotla/dotenv), for loading environment variables from a `medium.env.json` file into `process.env`. The difference is that you must declare the environment for the imported function so that it could do a lookup in the JSON file to load any required environment variables.
 
 ## Install
-`npm install seude  `
+---
+`npm install mediumroast  `
 or
-`yarn add seude`
+`yarn add mediumroast`
 
-Create a seude.env.json file and add specific variables needed in JSON relative to the root property.
+Create a medium.env.json file and add specific variables needed in JSON relative to the root property.
 
 Example:
 ```json
@@ -30,12 +32,12 @@ It's that simple.
 
 ```js
 const mongoose = require('mongoose')
-const seude = require('seude')
+const mediumroast = require('mediumroast')
 
-seude('test')
+mediumroast('test')
 mongoose.connect(process.env.DATABASE)
 
 ```
 
 ## Reason
-The reason for building another environment variable manager is to help manage multiple environments and to simplify testing variables in different in environments.
+The reason for building another environment variable manager is to help manage multiple environments and to simplify testing
