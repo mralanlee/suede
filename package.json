@@ -1,16 +1,16 @@
 {
-  "name": "seude",
+  "name": "mediumroast",
   "version": "0.0.1",
-  "description": "A environment handler that just feels good",
+  "description": "A environment handler that just tastes good",
   "main": "index.js",
   "scripts": {
     "lint": "eslint",
     "test": "jest",
-    "test:watch": "jest test/seude.test.js --watch"
+    "test:watch": "jest test/mediumroast.test.js --watch"
   },
   "keywords": [
     "env",
-    "seude",
+    "mediumroast",
     "environment",
     "config",
     "configuration",

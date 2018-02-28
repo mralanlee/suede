@@ -3,7 +3,7 @@
 const fs = require('fs')
 const path = require('path')
 
-function seude(env = '') {
+function mediumroast(env = '') {
     if (env.length < 1 || env == null) {
         throw new Error('A environment string needs to be set')
     }
@@ -16,7 +16,7 @@ function seude(env = '') {
         const vars = JSON.parse(fs.readFileSync(seudePath))
         
         process.env.NODE_ENV = env
-        
+
         if (vars[env]) {
             for (let [x, y] of Object.entries(vars[env])) {
                 process.env[x] = y
@@ -30,4 +30,4 @@ function seude(env = '') {
     return { ...loaded }
 }
 
-module.exports = seude
+module.exports = mediumroast
