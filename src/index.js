@@ -10,7 +10,7 @@ function mediumroast(env = '') {
 
     let loaded = {}
 
-    const seudePath = path.resolve(process.cwd(), 'seude.env.json')
+    const seudePath = path.resolve(process.cwd(), 'medium.env.json')
 
     try {
         const vars = JSON.parse(fs.readFileSync(seudePath))
