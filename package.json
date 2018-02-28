@@ -1,0 +1,26 @@
+{
+  "name": "seude",
+  "version": "0.0.1",
+  "description": "A environment handler that just feels good",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint",
+    "test": "jest",
+    "test:watch": "jest test/seude.test.js --watch"
+  },
+  "keywords": [
+    "env",
+    "seude",
+    "environment",
+    "config",
+    "configuration",
+    "setup"
+  ],
+  "author": "Alan Lee",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "jest": "^22.4.2"
+  },
+  "dependencies": {}
+}
