@@ -1,9 +1,7 @@
 # Seude
----
 Seude is a module, inspired by [dotenv](https://github.com/motdotla/dotenv), for loading environment variables from a `seude.env.json` file into `process.env`. The difference is that you must declare the environment for the imported function so that it could do a lookup in the JSON file to load any required environment variables.
 
 ## Install
----
 `npm install seude  `
 or
 `yarn add seude`
