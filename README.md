@@ -1,14 +1,14 @@
-# Medium Roast
----
-Seude is a module, inspired by [dotenv](https://github.com/motdotla/dotenv), for loading environment variables from a `medium.env.json` file into `process.env`. The difference is that you must declare the environment for the imported function so that it could do a lookup in the JSON file to load any required environment variables.
+# Suede
+
+Suede is a module, inspired by [dotenv](https://github.com/motdotla/dotenv), for loading environment variables from a `suede.env.json` file into `process.env`. The difference is that you must declare the environment for the imported function so that it could do a lookup in the JSON file to load any required environment variables.
 
 ## Install
----
-`npm install mediumroast  `
-or
-`yarn add mediumroast`
 
-Create a medium.env.json file and add specific variables needed in JSON relative to the root property.
+`npm install suede  `
+or
+`yarn add suede`
+
+Create a suede.env.json file and add specific variables needed in JSON relative to the root property.
 
 Example:
 ```json
@@ -32,9 +32,9 @@ It's that simple.
 
 ```js
 const mongoose = require('mongoose')
-const mediumroast = require('mediumroast')
+const suede = require('suede')
 
-mediumroast('test')
+suede('test')
 mongoose.connect(process.env.DATABASE)
 
 ```
