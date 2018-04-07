@@ -2,11 +2,15 @@
   "name": "suede",
   "version": "0.0.1",
   "description": "A environment handler that just tastes good",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "lint": "eslint",
     "test": "jest",
     "test:watch": "jest test/suede.test.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mralanlee/suede.git"
   },
   "keywords": [
     "env",
