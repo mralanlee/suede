@@ -1,6 +1,6 @@
 {
   "name": "suede",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A environment handler that just tastes good",
   "main": "src/index.js",
   "scripts": {
