@@ -6,4 +6,6 @@ test('loading environment', () => {
         DATABASE: "mongodb://localhost:27017/test",
         BACKEND_ENDPOINT: "http://localhost:3000/"
     })
+    expect(process.env.DATABASE).toEqual('mongodb://localhost:27017/test')
+    expect(process.env.BACKEND_ENDPOINT).toEqual('http://localhost:3000/')
 })
